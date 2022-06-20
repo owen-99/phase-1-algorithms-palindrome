@@ -1,5 +1,13 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  let wordSplit = word.split('')
+  let wordArray = wordSplit.reverse()
+  let wordReverse = wordArray.join('')
+    if (word===wordReverse) {
+     return true; 
+   } else {
+     return false;
+  }
 }
 
 /* 
